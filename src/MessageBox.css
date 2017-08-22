@@ -1,0 +1,7 @@
+.message-box {
+  flex: 1;
+  padding: 10px 20px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+}

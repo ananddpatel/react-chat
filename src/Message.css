@@ -1,0 +1,17 @@
+.message {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 0px 15px;
+  background: #fff6e7;
+  margin-top: 5px;
+  border-color: #CBCBCB;
+}
+
+.author, .body {
+  margin: 2px;
+}
+
+.author {
+  font-weight: 700;
+  color: red;
+}
