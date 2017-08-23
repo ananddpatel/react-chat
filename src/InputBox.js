@@ -5,9 +5,9 @@ class InputBox extends Component {
   render () {
     return(
       <form className="input-box">
-        <input className="author" type="text" required ref="author" />
-        <input className="message-body" type="text" required ref="message" />
-        <button onClick={(e) => this.sendMessage(e)}>send</button>
+        <input className="author" type="text" required ref="author" placeholder="Username"/>
+        <input className="message-body" type="text" required ref="message" placeholder="Message..."/>
+        <button onClick={(e) => this.sendMessage(e)}>Send</button>
       </form>
     );
   }
